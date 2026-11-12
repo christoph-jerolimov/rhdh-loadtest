@@ -1,5 +1,4 @@
-FROM mcr.microsoft.com/playwright:v1.63.0-resolute
-RUN corepack disable
+FROM mcr.microsoft.com/playwright:v1.65.0-resolute
 RUN npm install -g yarn
 
 WORKDIR /app
